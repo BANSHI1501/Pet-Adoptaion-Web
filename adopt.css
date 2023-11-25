@@ -1,0 +1,46 @@
+/* Add this to your existing styles.css or in a new stylesheet */
+
+.adopt-pet {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.adopt-pet h2 {
+    font-size: 24px;
+}
+
+.adopt-pet p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#adoption-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#adoption-form select,
+#adoption-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#adoption-form button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#adoption-form button:hover {
+    background-color: #e6870c;
+}
